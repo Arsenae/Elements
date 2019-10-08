@@ -1,0 +1,68 @@
+/* Elements */
+
+body {
+	background-color: black;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+	width: 350px;
+	height: 350px;
+	background-color: cyan;
+	border-radius: 50%;
+	position: absolute;
+	margin: 22em;
+}
+
+.square {
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	margin: 20em;
+	background-color: red;
+	transform: rotate(-45deg);
+}
+.square2 {
+	height: 550px;
+	width: 550px;
+	position: absolute;
+	margin: 20em;
+	background-color: black;
+	transform: rotate(-45deg);
+	border: dotted red 20px;
+}
+
+.rectangle {
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	top: 20em;
+	margin-left: 20em;
+	background-color: black;
+	transform: rotate(-45deg); 
+}
+
+.sphere {
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	margin: 25em;
+	margin-left: 25em;
+}
+
+.sphere2 {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	margin: 25em;
+	margin-left: 25em;
+}
